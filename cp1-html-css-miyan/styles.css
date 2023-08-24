@@ -1,0 +1,60 @@
+/*
+  Name: Miya Nakata
+  Date: March 30, 2023
+  Section: CSE 154 AA, TA: Elias Martin
+
+  This is the styles.css page for my CP1 assignment. All pages in CP1 use this
+  and has a green and yellow theme.
+*/
+
+/*
+  Note: This body rule set is to get you started
+*/
+body {
+  background-color: rgb(113, 166, 127);
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+img, .float-album {
+  width: 50%;
+}
+
+.float-album, .float-container {
+  padding: 20px;
+}
+
+/* hold album stuff */
+.float-container {
+  display: flex;
+  border: 3px black;
+}
+
+.float-album {
+  float: left;
+  border: 2px red;
+}
+
+section > section {
+  background-color: rgb(210, 208, 132);
+}
+
+button {
+  background-color: bisque;
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 10pt;
+}
+
+button:hover {
+  background-color: black;
+  color: rgb(113, 166, 127);
+}
